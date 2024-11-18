@@ -1,4 +1,5 @@
 import "./global.css";
+import Test from "./test";
 
 const MAIN = document.querySelector("main");
 const NAVLINKS = document.querySelectorAll(".navlink");
@@ -15,7 +16,7 @@ document.querySelectorAll("nav ul li button").forEach((button) => {
         MAIN.innerHTML = `<h2>Projects</h2>`;
       }
       if (button.innerText === "about") {
-        MAIN.innerHTML = `<h2>About</h2>`;
+        MAIN.innerHTML = Test();
       }
       if (button.innerText === "contact") {
         MAIN.innerHTML = `<h2>Contact</h2>`;
@@ -24,12 +25,9 @@ document.querySelectorAll("nav ul li button").forEach((button) => {
   });
 });
 
-MAIN.innerHTML = DEFAULT_PAGE;
-
 class View {
   constructor() {
     this.currentPage = DEFAULT_PAGE;
-    this.render();
   }
   render() {
     return this.currentPage;
@@ -39,6 +37,7 @@ class View {
 class Controller {
   constructor(view) {
     this.view = view;
+    this.view.render();
   }
 }
 
