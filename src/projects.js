@@ -1,5 +1,7 @@
+import "./projects.css";
+
 export default function Projects() {
-    const projects = `<div class="body-container">
+  return `<div class="body-container">
 
     <div class="projects-container">
       <div class="project-one-card card">
@@ -89,6 +91,4 @@ export default function Projects() {
     </div>
 
     </div>`;
- return projects
 }
-
