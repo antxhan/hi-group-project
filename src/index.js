@@ -1,4 +1,6 @@
 import "./global.css";
+import "./projects.css";
+import projects from "./projects"
 
 const MAIN = document.querySelector("main");
 const NAVLINKS = document.querySelectorAll(".navlink");
@@ -12,7 +14,7 @@ document.querySelectorAll("nav ul li button").forEach((button) => {
     if (!button.classList.contains("active")) {
       button.parentNode.classList.add("active");
       if (button.innerText === "projects") {
-        MAIN.innerHTML = `<h2>Projects</h2>`;
+        MAIN.innerHTML = projects;
       }
       if (button.innerText === "about") {
         MAIN.innerHTML = `<h2>About</h2>`;
