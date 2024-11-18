@@ -25,3 +25,22 @@ document.querySelectorAll("nav ul li button").forEach((button) => {
 });
 
 MAIN.innerHTML = DEFAULT_PAGE;
+
+class View {
+  constructor() {
+    this.currentPage = DEFAULT_PAGE;
+    this.render();
+  }
+  render() {
+    return this.currentPage;
+  }
+}
+
+class Controller {
+  constructor(view) {
+    this.view = view;
+  }
+}
+
+const view = new View();
+const controller = new Controller(view);
