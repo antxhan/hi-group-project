@@ -1,6 +1,10 @@
 import "./global.css";
 import Projects from "./projects.js";
 
+import "./contact.css";
+import Projects from "./contact.js";
+
+
 const MAIN = document.querySelector("main");
 
 document.querySelectorAll("nav ul li button").forEach((button) => {
