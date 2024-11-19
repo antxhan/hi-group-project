@@ -1,9 +1,8 @@
 import "./projects.css";
-import screenshot from "./images/dylano-homepage-sc.png";
-import screenshotTwo from "./images/dylano-restaurantpage-sc.png";
-import antonScreenshot from "./images/anton-calculator-sc.png";
-import antonScreenshotTwo from "./images/anton-tictactoe-sc.png"
-
+import dylanImg1 from "./images/dylano-homepage-sc.png";
+import dylanImg2 from "./images/dylano-restaurantpage-sc.png";
+import antonImg1 from "./images/anton-calculator-sc.png";
+import antonImg2 from "./images/anton-tictactoe-sc.png";
 
 export default function Projects() {
   const projects = [
@@ -11,30 +10,29 @@ export default function Projects() {
       title: "Homepage",
       author: "Dylan St. John",
       url: "https://dstjp.github.io/odin-homepage/",
-      image: screenshot
+      image: dylanImg1,
     },
-  {
+    {
       title: "Restaurant Page",
       author: "Dylan St. John",
       url: "https://dstjp.github.io/restaurant-page/",
-      image: screenshotTwo
+      image: dylanImg2,
     },
     {
       title: "iPhone Calculator",
       author: "Anton Hansson",
       url: "https://antxhan.github.io/odin-calculator/",
-      image: antonScreenshot
+      image: antonImg1,
     },
     {
       title: "Tic-Tac-Toe",
       author: "Anton Hansson",
       url: "https://antxhan.github.io/odin-tic-tac-toe/",
-      image: antonScreenshotTwo
+      image: antonImg2,
     },
+  ];
 
-  ]
-  
-  let projectsString = projects.map((project, index) => { 
+  const projectsString = projects.map((project) => {
     const template = `
           <a href="${project.url}" class="project-one-card card">
           <div class="lang-boxes">
@@ -49,19 +47,14 @@ export default function Projects() {
             <h3>${project.title}</h3>
             <p class="name-text">${project.author}</p>
           </div>
-        </a>`
+        </a>`;
     return template;
   });
-  
-  const projectsHTML = projectsString.join("")
-  
-  const outputHTML = 
-      `<div class="body-container">
-        <div class="projects-container">
-         ${projectsHTML}
-        </div>
-      </div>`;
-  
-  console.log(outputHTML)
-  return outputHTML;
+
+  return `
+    <div class="body-container">
+      <div class="projects-container">
+        ${projectsString.join("")}
+      </div>
+    </div>`;
 }
