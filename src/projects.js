@@ -40,7 +40,7 @@ export default function Projects() {
           <div class="lang-boxes">
             <div class="html-box">HTML</div>
             <div class="css-box">CSS</div>
-            <div class="js-box">JavaScript</div>
+            <div class="js-box">JS</div>
           </div>
           <div class="content-box">
             <img class="screenshot" src="${project.image}" alt="">
