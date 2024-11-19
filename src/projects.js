@@ -1,8 +1,10 @@
 import "./projects.css";
+
 import dylanImg1 from "./images/dylano-homepage-sc.png";
 import dylanImg2 from "./images/dylano-restaurantpage-sc.png";
 import antonImg1 from "./images/anton-calculator-sc.png";
 import antonImg2 from "./images/anton-tictactoe-sc.png";
+
 
 export default function Projects() {
   const projects = [
