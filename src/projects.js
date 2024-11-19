@@ -2,7 +2,7 @@ import "./projects.css";
 import screenshot from "./images/dylano-homepage-sc.png";
 import screenshotTwo from "./images/dylano-restaurantpage-sc.png";
 import antonScreenshot from "./images/anton-calculator-sc.png";
-import antonScreenshotTwo from "./images/anton-tictactoe-sc.png"
+import antonScreenshotTwo from "./images/anton-tictactoe-sc.png";
 
 
 export default function Projects() {
