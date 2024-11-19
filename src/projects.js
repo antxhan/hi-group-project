@@ -28,7 +28,7 @@ export default function Projects() {
           
         </div>
         <div class="project-title">
-          <h3>Project Title</h3>
+          <h2>Project Title</h2>
           <p class="name-text">Firstname Lastname</p>
         </div>
       </div>

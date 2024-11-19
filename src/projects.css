@@ -35,31 +35,29 @@ body {
     justify-content: space-between;
     margin-top: 20px;
     margin-left: 20px;
-
+    font-size: 14px;
+    font-weight: 550;
 }
 
 .html-box {
     border: none;
     border-radius: 25px;
     background-color: #FF9C9C;
-    padding: 8px;
-    font-weight: bold;
+    padding: 4px;   
     margin-right: 5px;
 }
 .css-box {
     border: none;
     border-radius: 25px;
     background-color: #A6DAFF;
-    padding: 8px;
-    font-weight: bold;
+    padding: 4px;
     margin-right: 5px;
 }
 .js-box {
     border: none;
     border-radius: 25px;
     background-color: #F8F881;
-    padding: 8px;
-    font-weight: bold;
+    padding: 4px;
 }
 
 .content-box {
@@ -76,11 +74,11 @@ body {
 .project-title {
     display: flex;
     flex-direction: column;
-    margin-top: -18px;
     margin-left: 15px;
 }
 
 .name-text {
-    margin-top: -10px;
+    margin-top: 5px;
+    font-size: 17px;
 }
 
