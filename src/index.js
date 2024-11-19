@@ -2,11 +2,10 @@ import "./global.css";
 import Projects from "./projects.js";
 
 const MAIN = document.querySelector("main");
-const NAVLINKS = document.querySelectorAll(".navlink");
 
 document.querySelectorAll("nav ul li button").forEach((button) => {
   button.addEventListener("click", () => {
-    NAVLINKS.forEach((link) => {
+    document.querySelectorAll(".navlink").forEach((link) => {
       link.classList.remove("active");
     });
     if (!button.classList.contains("active")) {
