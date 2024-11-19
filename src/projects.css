@@ -41,32 +41,32 @@ body {
     margin-left: 20px;
     font-size: 14px;
     font-weight: 550;
+    padding-inline: 0.15rem;
 }
 
 .html-box {
     border: none;
     border-radius: 25px;
-    background-color: #FF9C9C;
-    padding: 4px;   
+    background-color: #FF9C9C;   
     margin-right: 5px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.167);
+    padding: 0.35rem;
 }
 .css-box {
     border: none;
     border-radius: 25px;
     background-color: #A6DAFF;
-    padding: 4px;
     margin-right: 5px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.167);
+    padding: 0.35rem;
 
 }
 .js-box {
     border: none;
     border-radius: 25px;
     background-color: #F8F881;
-    padding: 4px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.167);
-
+    padding: 0.35rem;
 }
 
 
