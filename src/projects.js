@@ -1,4 +1,6 @@
 import "./projects.css";
+import screenshot from "./images/dylano-homepage-sc.png";
+import screenshotTwo from "./images/dylano-restaurantpage-sc.png";
 
 export default function Projects() {
   return `<div class="body-container">
@@ -11,11 +13,11 @@ export default function Projects() {
           <div class="js-box">JavaScript</div>
         </div>
         <div class="content-box">
-          
+          <img class="screenshot" src="${screenshot}" alt="">
         </div>
         <div class="project-title">
-          <h3>Project Title</h3>
-          <p class="name-text">Firstname Lastname</p>
+          <h2>Homepage</h2>
+          <p class="name-text">Dylan St. John</p>
         </div>
       </div>
       <div class="project-two-card card">
@@ -28,7 +30,7 @@ export default function Projects() {
           
         </div>
         <div class="project-title">
-          <h2>Project Title</h2>
+          <h3>Project Title</h3>
           <p class="name-text">Firstname Lastname</p>
         </div>
       </div>
@@ -67,11 +69,11 @@ export default function Projects() {
           <div class="js-box">JavaScript</div>
         </div>
         <div class="content-box">
-          
+          <img class="screenshot" src=${screenshotTwo} alt="">
         </div>
         <div class="project-title">
-          <h3>Project Title</h3>
-          <p class="name-text">Firstname Lastname</p>
+          <h3>Restaurant Page</h3>
+          <p class="name-text">Dylan St. John</p>
         </div>
       </div>
       <div class="project-six-card card">

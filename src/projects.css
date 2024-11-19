@@ -60,21 +60,33 @@ body {
     padding: 4px;
 }
 
+
 .content-box {
-    background-color: #D9D9D9;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 15px;
     width: 232px;
     height: 164px;
-    border: 2px solid black;
+    border: 1px solid black;
+    
 }
+
+.screenshot {
+    border: 1px solid black;
+    border-radius: 15px;
+    object-fit: cover;
+    width: 232px;
+    height: 164px;    
+}
+
 
 .project-title {
     display: flex;
     flex-direction: column;
     margin-left: 15px;
+    text-transform: uppercase;
 }
 
 .name-text {
