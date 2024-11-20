@@ -17,7 +17,7 @@ const projects = [
   {
     title: "Restaurant Page",
     author: "Dylan St. John",
-    url: "https://dstjp.github.io/restaurant-page/",
+    url: "https://dstjp.github.io/odin-restaurantpage/",
     image: dylanImg2,
   },
   {
