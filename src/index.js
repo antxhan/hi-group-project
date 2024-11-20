@@ -2,8 +2,7 @@ import "./global.css";
 import Projects from "./projects.js";
 
 import "./contact.css";
-import Projects from "./contact.js";
-
+import Contact from "./contact.js"
 
 const MAIN = document.querySelector("main");
 
@@ -21,7 +20,7 @@ document.querySelectorAll("nav ul li button").forEach((button) => {
         MAIN.innerHTML = "<h2>About</h2>";
       }
       if (button.innerText === "contact") {
-        MAIN.innerHTML = `<h2>Contact</h2>`;
+        MAIN.innerHTML = Contact();
       }
     }
   });

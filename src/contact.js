@@ -1,78 +1,32 @@
 
-    
-    const form = document.getElementById('contactForm');
-    form.addEventListener('submit', function(event) {
-        event.preventDefault(); 
+export default function contact() {
+return `<div class="body-container">
 
-        const firstName = document.getElementById('firstName').value.trim();
-        const lastName = document.getElementById('lastName').value.trim();
-        const email = document.getElementById('email').value.trim();
-        const phone = document.getElementById('phone').value.trim();
-        const message = document.getElementById('message').value.trim();
+  <form id="contactForm">
+    <h2>Get in touch</h2>
+    <label for="email">E-mail</label>
+    <input type="email" id="email" placeholder="email@example.com" required />
 
-        // Validate form fields
-        if (!validateForm(firstName, lastName, email, phone, message)) {
-            return; 
-        }
-        
-        const formData = {
-            firstName: firstName,
-            lastName: lastName,
-            email: email,
-            phone: phone,
-            message: message
-        };
+    <div style="display: flex;flex-direction: column; gap: 10px;">
+      <div>
+        <label for="firstName">First name</label>
+        <input type="text" id="firstName" placeholder="Name" required />
+      </div>
+      <div>
+        <label for="lastName">Last name</label>
+        <input type="text" id="lastName" placeholder="Name" required />
+      </div>
+      <div>
+        <label for="PhoneNumber">Phone Number</label>
+        <input type="text" id="PhoneNumber" placeholder="Phone Number" required />
+      </div>
+    </div>
 
-        // Send the form data (you'll need to implement this function)
-        sendFormData(formData);
-    });
+    <label for="message">Message</label>
+    <textarea id="message" placeholder="Tell us what's up..." rows="4" required></textarea>
 
-    function validateForm(firstName, lastName, email, phone, message) {
-        let isValid = true;
+    <button class="formbutton" type="submit">Send</button>
+  </form>
 
-        // Check if required fields are filled
-        if (firstName === '') {
-            alert('Please enter your first name.');
-            isValid = false;
-        }
-
-        if (lastName === '') {
-            alert('Please enter your last name.');
-            isValid = false;
-        }
-
-        if (email === '') {
-            alert('Please enter your email address.');
-            isValid = false;
-        } else if (!isValidEmail(email)) {
-            alert('Please enter a valid email address.');
-            isValid = false;
-        }
-
-        if (phone === '') {
-            alert('Please enter your phone number.');
-            isValid = false;
-        }
-
-        if (message === '') {
-            alert('Please enter a message.');
-            isValid = false;
-        }
-
-        return isValid;
-    }
-
-    function isValidEmail(email) {
-        // Basic email validation regex
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        return emailRegex.test(email);
-    }
-
-    function sendFormData(formData) {
-    
-        console.log('Form data to be sent:', formData);
-        alert('Thank you for your message! We will get back to you soon.');
-
-        // Reset the form
-        document.getElementById('contactForm').reset();
-    }
+  `;
+}
