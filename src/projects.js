@@ -5,7 +5,7 @@ import dylanImg2 from "./images/dylano-restaurantpage-sc.png";
 import antonImg1 from "./images/anton-calculator-sc.png";
 import antonImg2 from "./images/anton-tictactoe-sc.png";
 import anitaImg1 from "./images/anita-tictactoe-sc.png";
-
+import anitaImg2 from "./images/anita-library-sc.png";
 
 export default function Projects() {
   const projects = [
@@ -38,6 +38,12 @@ export default function Projects() {
       author: "Anita Kumari",
       url: "https://anita-kumari1987.github.io/Tic-Tac-Toe/",
       image: anitaImg1,
+    },
+    {
+      title: "Library",
+      author: "Anita Kumari",
+      url: "https://anita-kumari1987.github.io/My-Library/",
+      image: anitaImg2,
     },
   ];
 
