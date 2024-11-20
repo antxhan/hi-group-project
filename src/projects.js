@@ -4,6 +4,8 @@ import dylanImg1 from "./images/dylano-homepage-sc.png";
 import dylanImg2 from "./images/dylano-restaurantpage-sc.png";
 import antonImg1 from "./images/anton-calculator-sc.png";
 import antonImg2 from "./images/anton-tictactoe-sc.png";
+import anitaImg1 from "./images/anita-tictactoe-sc.png";
+import anitaImg2 from "./images/anita-library-sc.png";
 
 const projects = [
   {
@@ -15,7 +17,7 @@ const projects = [
   {
     title: "Restaurant Page",
     author: "Dylan St. John",
-    url: "https://dstjp.github.io/restaurant-page/",
+    url: "https://dstjp.github.io/odin-restaurantpage/",
     image: dylanImg2,
   },
   {
@@ -29,6 +31,18 @@ const projects = [
     author: "Anton Hansson",
     url: "https://antxhan.github.io/odin-tic-tac-toe/",
     image: antonImg2,
+  },
+  {
+      title: "Tic-Tac-Toe",
+      author: "Anita Kumari",
+      url: "https://anita-kumari1987.github.io/Tic-Tac-Toe/",
+      image: anitaImg1,
+  },
+  {
+      title: "Library",
+      author: "Anita Kumari",
+      url: "https://anita-kumari1987.github.io/My-Library/",
+      image: anitaImg2,
   },
 ];
 
