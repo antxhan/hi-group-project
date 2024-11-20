@@ -4,6 +4,7 @@ import dylanImg1 from "./images/dylano-homepage-sc.png";
 import dylanImg2 from "./images/dylano-restaurantpage-sc.png";
 import antonImg1 from "./images/anton-calculator-sc.png";
 import antonImg2 from "./images/anton-tictactoe-sc.png";
+import anitaImg1 from "./images/anita-tictactoe-sc.png";
 
 
 export default function Projects() {
@@ -31,6 +32,12 @@ export default function Projects() {
       author: "Anton Hansson",
       url: "https://antxhan.github.io/odin-tic-tac-toe/",
       image: antonImg2,
+    },
+    {
+      title: "Tic-Tac-Toe",
+      author: "Anita Kumari",
+      url: "https://anita-kumari1987.github.io/Tic-Tac-Toe/",
+      image: anitaImg1,
     },
   ];
 
