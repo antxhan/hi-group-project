@@ -18,7 +18,7 @@
   @media (max-width: 50em) {
     .projects-container {
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(6, 270px);
+        grid-template-rows: repeat(8, 270px);
         gap: 16px;
     }
   }
@@ -102,7 +102,7 @@
 }
 
 .name-text {
-    margin-top: 1px;
+    margin-top: 8px;
     font-size: 17px;
 }
 
