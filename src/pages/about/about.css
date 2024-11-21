@@ -2,20 +2,34 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  /* margin: 1rem; */
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  border: 1px solid var(--clr-neutral-500);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
 }
 
 .member_info {
+  border: 1px solid var(--clr-neutral-500);
+  /* border-radius: 0.5rem; */
+  border-top: none;
+  border-right: none;
+  border-left: none;
   display: flex;
+  padding: 0.5rem;
 }
+
 
 .member_image {
   aspect-ratio: 1;
   height: 6.25rem;
   width:6.25rem;
   border-radius: 100%;
-  margin: 0.65rem;
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.785);
+  margin-right: 0.5rem;
+  margin-top: -0.25rem;
   object-fit: cover;
+  filter: grayscale(70%);
 }
 
 .memberInfo_container {
@@ -25,23 +39,34 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  margin-top: -1rem;
 }
+
+.member_info:hover img {
+  filter: grayscale(0);
+}
+
 
 .role {
   font-size: var(--fs-normal);
-  color: rgb(56, 56, 56);
-  font-weight: 700;
+  color: var(-clr-neutral-800);
+  font-weight: 500;
+  margin-top: -0.5rem;
 }
 
 .introduction {
  font-size: var(--fs-normal);
+ margin-top: -0.25rem;
 }
 
 .name {
   margin-top: 0.75rem;
   text-align: left;
   font-size: var(--fs-medium);
+  text-transform: uppercase;
 }
+
+
 
 .email_icon,
 .web_icon {
@@ -53,6 +78,7 @@
   display: flex;
   align-items: center;
   gap: 0.25rem;
+  margin-right: 2.25rem;
 }
 
 .email_adress,
