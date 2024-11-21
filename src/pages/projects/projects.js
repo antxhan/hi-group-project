@@ -1,13 +1,13 @@
 import "./projects.css";
 
-import dylanImg1 from "../../assets/images/projects/dylano-homepage-sc.png";
-import dylanImg2 from "../../assets/images/projects/dylano-restaurantpage-sc.png";
-import antonImg1 from "../../assets/images/projects/anton-calculator-sc.png";
-import antonImg2 from "../../assets/images/projects/anton-tictactoe-sc.png";
-import anitaImg1 from "../../assets/images/projects/anita-tictactoe-sc.png";
-import anitaImg2 from "../../assets/images/projects/anita-library-sc.png";
-import chiruImg1 from "../../assets/images/projects/chiru-calculator-sc.png";
-import chiruImg2 from "../../assets/images/projects/chiru-colorchanger-sc.png";
+import dylanImg1 from "../../assets/images/projects/dylano-homepage-sc.jpeg";
+import dylanImg2 from "../../assets/images/projects/dylano-restaurantpage-sc.jpeg";
+import antonImg1 from "../../assets/images/projects/anton-calculator-sc.jpeg";
+import antonImg2 from "../../assets/images/projects/anton-tictactoe-sc.jpeg";
+import anitaImg1 from "../../assets/images/projects/anita-tictactoe-sc.jpeg";
+import anitaImg2 from "../../assets/images/projects/anita-library-sc.jpeg";
+import chiruImg1 from "../../assets/images/projects/chiru-calculator-sc.jpeg";
+import chiruImg2 from "../../assets/images/projects/chiru-colorchanger-sc.jpeg";
 
 const projects = [
   {

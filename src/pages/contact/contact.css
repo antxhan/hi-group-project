@@ -1,7 +1,6 @@
 form {
   display: flex;
   flex-direction: column;
-  /* max-width: min(300px, 100% - 2rem); */
   width: min(400px, 100% - 2rem);
   padding: 1rem;
   border: 1px solid var(--clr-neutral-500);
@@ -25,6 +24,7 @@ form {
   input,
   textarea,
   button {
+    font-family: inherit;
     width: 100%;
     font-size: var(--fs-normal);
     padding: 0.5rem;
