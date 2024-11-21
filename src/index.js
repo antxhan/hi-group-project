@@ -1,10 +1,7 @@
 import "./global.css";
-import About from "./about.js";
-import "./about.css";
-import Projects from "./projects.js";
-
-import "./contact.css";
-import Contact from "./contact.js"
+import About from "./pages/about/about.js";
+import Projects from "./pages/projects/projects.js";
+import Contact from "./pages/contact/contact.js";
 
 const MAIN = document.querySelector("main");
 
@@ -16,6 +13,7 @@ document.querySelectorAll("nav ul li button").forEach((button) => {
     if (!button.classList.contains("active")) {
       button.parentNode.classList.add("active");
       if (button.innerText === "projects") {
+        MAIN.innerHTML = "";
         MAIN.innerHTML = Projects();
       }
       if (button.innerText === "about") {
@@ -23,6 +21,7 @@ document.querySelectorAll("nav ul li button").forEach((button) => {
         About();
       }
       if (button.innerText === "contact") {
+        MAIN.innerHTML = "";
         MAIN.innerHTML = Contact();
       }
     }
