@@ -46,13 +46,14 @@ header {
     width: var(--page-width);
   }
   nav {
+    padding-block: 1.5rem;
     padding-inline: 2rem;
     display: flex;
     justify-content: center;
     ul {
       width: min(400px, 100%);
       display: flex;
-      gap: 1rem;
+      gap: 2rem;
       justify-content: space-between;
       li {
         list-style: none;
