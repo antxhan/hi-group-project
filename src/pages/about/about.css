@@ -1,6 +1,7 @@
 .about_container {
   display: flex;
   flex-direction: column;
+  gap: 1rem;
 }
 
 .member_info {
@@ -13,6 +14,8 @@
   width:6.25rem;
   border-radius: 100%;
   margin: 0.65rem;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.785);
+  object-fit: cover;
 }
 
 .memberInfo_container {
@@ -25,7 +28,9 @@
 }
 
 .role {
-  font-size: var(--fs-normal)
+  font-size: var(--fs-normal);
+  color: rgb(56, 56, 56);
+  font-weight: 700;
 }
 
 .introduction {
@@ -40,8 +45,8 @@
 
 .email_icon,
 .web_icon {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: var(--fs-medium);
+  height: var(--fs-medium);
 }
 
 .contactInfo {
