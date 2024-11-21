@@ -7,10 +7,7 @@
 }
 
 .projects-container {
-  /* border: 1px solid red; */
-
-  /* width: 100%; */
-  width: min(1400px, 100% - 4rem);
+  width: var(--page-width);
   margin-top: 1rem;
   margin-bottom: 2rem;
   display: grid;
