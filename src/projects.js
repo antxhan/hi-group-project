@@ -33,16 +33,16 @@ const projects = [
     image: antonImg2,
   },
   {
-      title: "Tic-Tac-Toe",
-      author: "Anita Kumari",
-      url: "https://anita-kumari1987.github.io/Tic-Tac-Toe/",
-      image: anitaImg1,
+    title: "Tic-Tac-Toe",
+    author: "Anita Kumari",
+    url: "https://anita-kumari1987.github.io/Tic-Tac-Toe/",
+    image: anitaImg1,
   },
   {
-      title: "Library",
-      author: "Anita Kumari",
-      url: "https://anita-kumari1987.github.io/My-Library/",
-      image: anitaImg2,
+    title: "Library",
+    author: "Anita Kumari",
+    url: "https://anita-kumari1987.github.io/My-Library/",
+    image: anitaImg2,
   },
 ];
 
