@@ -12,15 +12,15 @@ document.querySelectorAll("nav ul li button").forEach((button) => {
     });
     if (!button.classList.contains("active")) {
       button.parentNode.classList.add("active");
-      if (button.innerText === "projects") {
+      if (button.value === "projects") {
         MAIN.innerHTML = "";
         MAIN.innerHTML = Projects();
       }
-      if (button.innerText === "about") {
+      if (button.value === "about") {
         MAIN.innerHTML = "";
         About();
       }
-      if (button.innerText === "contact") {
+      if (button.value === "contact") {
         MAIN.innerHTML = "";
         MAIN.innerHTML = Contact();
       }
