@@ -88,7 +88,12 @@
 .project-title {
   display: flex;
   flex-direction: column;
-  /* margin-left: 15px; */
-  text-transform: uppercase;
   padding-top: 1px;
+  /* text-transform: lowercase; */
+  h3 {
+    text-transform: uppercase;
+  }
+  p {
+    color: var(--clr-neutral-800);
+  }
 }
