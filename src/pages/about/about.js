@@ -1,9 +1,9 @@
 import emailImage from "../../assets/icons/mail.svg";
 import webImage from "../../assets/icons/web.svg";
 import member1Image from "../../assets/images/about/Anita.jpeg";
-import antonImage from "../../assets/images/about/Anton Hansson.png";
-import ChiranjeeviImage from "../../assets/images/about/Chiranjeevi Vattiri.png";
-import dylanImage from "../../assets/images/about/Dylan St. John.png";
+import antonImage from "../../assets/images/about/Anton Hansson.jpeg";
+import ChiranjeeviImage from "../../assets/images/about/Chiranjeevi Vattiri.jpeg";
+import dylanImage from "../../assets/images/about/Dylan St. John.jpeg";
 import "./about.css";
 
 export default function About() {

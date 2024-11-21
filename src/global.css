@@ -50,6 +50,7 @@ header {
     padding-inline: 2rem;
     display: flex;
     justify-content: center;
+
     ul {
       width: min(400px, 100%);
       display: flex;
