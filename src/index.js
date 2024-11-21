@@ -19,9 +19,8 @@ document.querySelectorAll("nav ul li button").forEach((button) => {
         MAIN.innerHTML = Projects();
       }
       if (button.innerText === "about") {
-        //MAIN.innerHTML = About();
-        About();
         MAIN.innerHTML = "<h2>About</h2>";
+        About();
       }
       if (button.innerText === "contact") {
         MAIN.innerHTML = Contact();

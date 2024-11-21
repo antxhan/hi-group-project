@@ -8,7 +8,7 @@ import dylanImage from './Dylan St. John.png';
 export default function About() {
 
   const mainContainer = document.createElement('div');
-  document.querySelector("main").appendChild(mainContainer)
+  document.getElementsByTagName("main")[0].querySelector("h2").after(mainContainer)
   mainContainer.classList.add('about_container');
   
   //1st member(1)- Anton
