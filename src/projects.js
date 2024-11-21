@@ -1,11 +1,11 @@
 import "./projects.css";
 
-import dylanImg1 from "./images/dylano-homepage-sc.png";
-import dylanImg2 from "./images/dylano-restaurantpage-sc.png";
-import antonImg1 from "./images/anton-calculator-sc.png";
-import antonImg2 from "./images/anton-tictactoe-sc.png";
-import anitaImg1 from "./images/anita-tictactoe-sc.png";
-import anitaImg2 from "./images/anita-library-sc.png";
+import dylanImg1 from "./assets/images/projects/dylano-homepage-sc.png";
+import dylanImg2 from "./assets/images/projects/dylano-restaurantpage-sc.png";
+import antonImg1 from "./assets/images/projects/anton-calculator-sc.png";
+import antonImg2 from "./assets/images/projects/anton-tictactoe-sc.png";
+import anitaImg1 from "./assets/images/projects/anita-tictactoe-sc.png";
+import anitaImg2 from "./assets/images/projects/anita-library-sc.png";
 
 const projects = [
   {
