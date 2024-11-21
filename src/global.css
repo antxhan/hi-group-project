@@ -2,6 +2,7 @@
   /* COLORS */
   --clr-neutral-000: #fff;
   --clr-neutral-500: rgb(180, 180, 180);
+  --clr-neutral-800: #333;
   --clr-neutral-900: #000;
 
   /* WIDTHS */
@@ -13,7 +14,7 @@
 
   /* FONT SIZES */
   --fs-xlarge: 8rem;
-  --fs-large: 5rem;
+  --fs-large: 4rem;
   --fs-medium: 1.25rem;
   --fs-normal: 1rem;
   --fs-small: 0.8rem;
@@ -45,23 +46,28 @@ header {
     width: var(--page-width);
   }
   nav {
+    padding-block: 1.5rem;
     padding-inline: 2rem;
     display: flex;
     justify-content: center;
     ul {
       width: min(400px, 100%);
       display: flex;
-      gap: 1rem;
+      gap: 2rem;
       justify-content: space-between;
       li {
         list-style: none;
         button {
           background: none;
-          border: none;
-          font-weight: bold;
+          color: var(--clr-neutral-900);
           font-size: var(--fs-medium);
+          &:hover {
+            background-color: transparent;
+            color: var(--clr-neutral-800);
+          }
         }
         &.active button {
+          background-color: none;
           text-decoration: underline;
         }
       }
@@ -84,11 +90,19 @@ footer {
 }
 
 button {
+  background-color: var(--clr-neutral-900);
+  border: none;
+  color: var(--clr-neutral-000);
   font-size: var(--fs-normal);
+  font-weight: bold;
+  transition: background-color 0.1s ease-in-out;
   &:hover {
+    background-color: var(--clr-neutral-800);
     cursor: pointer;
   }
 }
+
+/* MEDIA QUERIES ------------------------------------------------------------ */
 
 @media (max-width: 800px) {
   header {
