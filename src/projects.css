@@ -1,0 +1,108 @@
+
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(4, 264px);
+    grid-template-rows: repeat(4, 270px);
+    gap: 32px;
+  }
+
+  @media (max-width: 50em) {
+    .projects-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 270px);
+        gap: 16px;
+    }
+  }
+
+  .card {
+    background-color: white;
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.342);
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.208);
+    text-decoration: none;
+  }
+
+  .card:hover {
+    background-color: rgba(0, 0, 0, 0.073);  
+    transition: 0.2s;    
+  }
+
+.lang-boxes {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    padding-inline: 0.25rem;
+    padding: auto;
+}
+
+.html-box {
+    border: none;
+    border-radius: 25px;
+    background-color: #FF9C9C;   
+    margin-right: 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.167);
+    padding: 0.35rem;
+}
+.css-box {
+    border: none;
+    border-radius: 25px;
+    background-color: #A6DAFF;
+    margin-right: 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.167);
+    padding: 0.35rem;
+
+}
+.js-box {
+    border: none;
+    border-radius: 25px;
+    background-color: #F8F881;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.167);
+    padding: 0.35rem;
+}
+
+
+.content-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    width: 232px;
+    height: 164px;
+}
+
+.screenshot {  
+    border-radius: 15px;
+    object-fit: cover;
+    width: 232px;
+    height: 164px;   
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.167);
+}
+
+
+.project-title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    text-transform: uppercase;
+    padding-top: 1px;
+}
+
+.name-text {
+    margin-top: 1px;
+    font-size: 17px;
+}
+
