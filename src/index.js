@@ -1,10 +1,7 @@
 import "./global.css";
-import About from "./about.js";
-import "./about.css";
-import Projects from "./projects.js";
-
-import "./contact.css";
-import Contact from "./contact.js";
+import About from "./pages/about/about.js";
+import Projects from "./pages/projects/projects.js";
+import Contact from "./pages/contact/contact.js";
 
 const MAIN = document.querySelector("main");
 

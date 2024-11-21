@@ -1,6 +1,7 @@
+import "./contact.css";
 
 export default function contact() {
-return `<div class="body-container">
+  return `<div class="body-container">
 
   <form id="contactForm">
     <h2>Get in touch</h2>

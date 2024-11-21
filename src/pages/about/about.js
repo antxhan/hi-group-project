@@ -1,9 +1,10 @@
-import emailImage from "./assets/icons/email.png";
-import webImage from "./assets/icons/web.png";
-import member1Image from "./assets/images/about/Anita.jpeg";
-import antonImage from "./assets/images/about/Anton Hansson.png";
-import ChiranjeeviImage from "./assets/images/about/Chiranjeevi Vattiri.png";
-import dylanImage from "./assets/images/about/Dylan St. John.png";
+import emailImage from "../../assets/icons/email.png";
+import webImage from "../../assets/icons/web.png";
+import member1Image from "../../assets/images/about/Anita.jpeg";
+import antonImage from "../../assets/images/about/Anton Hansson.png";
+import ChiranjeeviImage from "../../assets/images/about/Chiranjeevi Vattiri.png";
+import dylanImage from "../../assets/images/about/Dylan St. John.png";
+import "./about.css";
 
 export default function About() {
   const mainContainer = document.createElement("div");
