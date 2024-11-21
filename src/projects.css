@@ -9,6 +9,7 @@
 
 
 .projects-container {
+    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(4, 264px);
     grid-template-rows: repeat(4, 270px);
