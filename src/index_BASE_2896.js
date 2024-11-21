@@ -1,33 +1,27 @@
 import "./global.css";
-import About from "./about.js";
-import "./about.css";
-import Projects from "./projects.js";
-
-import "./contact.css";
-import Contact from "./contact.js"
 
 const MAIN = document.querySelector("main");
+const NAVLINKS = document.querySelectorAll(".navlink");
+const DEFAULT_PAGE = `<h2>Projects</h2>`;
 
 document.querySelectorAll("nav ul li button").forEach((button) => {
   button.addEventListener("click", () => {
-    document.querySelectorAll(".navlink").forEach((link) => {
+    NAVLINKS.forEach((link) => {
       link.classList.remove("active");
     });
     if (!button.classList.contains("active")) {
       button.parentNode.classList.add("active");
       if (button.innerText === "projects") {
-        MAIN.innerHTML = Projects();
+        MAIN.innerHTML = `<h2>Projects</h2>`;
       }
       if (button.innerText === "about") {
-        //MAIN.innerHTML = About();
-        About();
-        MAIN.innerHTML = "<h2>About</h2>";
+        MAIN.innerHTML = `<h2>About</h2>`;
       }
       if (button.innerText === "contact") {
-        MAIN.innerHTML = Contact();
+        MAIN.innerHTML = `<h2>Contact</h2>`;
       }
     }
   });
 });
 
-MAIN.innerHTML = Projects();
+MAIN.innerHTML = DEFAULT_PAGE;

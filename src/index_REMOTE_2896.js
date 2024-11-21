@@ -1,6 +1,4 @@
 import "./global.css";
-import About from "./about.js";
-import "./about.css";
 import Projects from "./projects.js";
 
 import "./contact.css";
@@ -19,8 +17,6 @@ document.querySelectorAll("nav ul li button").forEach((button) => {
         MAIN.innerHTML = Projects();
       }
       if (button.innerText === "about") {
-        //MAIN.innerHTML = About();
-        About();
         MAIN.innerHTML = "<h2>About</h2>";
       }
       if (button.innerText === "contact") {
