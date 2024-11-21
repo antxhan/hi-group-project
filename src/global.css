@@ -1,6 +1,7 @@
 :root {
   /* COLORS */
   --clr-neutral-000: #fff;
+  --clr-neutral-500: rgb(180, 180, 180);
   --clr-neutral-900: #000;
 
   /* WIDTHS */
