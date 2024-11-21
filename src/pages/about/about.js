@@ -269,7 +269,7 @@ export default function About() {
 
   const webAdress4 = document.createElement("p");
   webIcon4.insertAdjacentElement("afterend", webAdress4);
-  webAdress4.innerText = "website.com";
+  webAdress4.innerText = "https://github.com/dstjp";
   webAdress4.classList.add("web_adress");
 
   webAdress4.addEventListener("click", function () {
